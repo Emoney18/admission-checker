@@ -1,0 +1,35 @@
+*{
+    /* border: 1px solid red; */
+}
+body {
+  background-color: #dadbcd;
+}
+.row{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid rgb(193, 192, 192);
+}
+.row h1{
+    text-align: right;
+}
+
+.silver-text{
+    color: rgb(32, 30, 30);
+}
+
+.results{
+    width: 90%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctab{
+    background-color: rgb(251, 247, 247);
+    padding: .75em 1em;
+    color: rgb(10, 9, 9);
+}
+.ctab:hover{
+    background-color: grey;
+    color: #000;
+}
